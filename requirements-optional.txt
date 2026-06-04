@@ -1,0 +1,7 @@
+# Optional for --feature-set roberta and --feature-set hybrid
+torch>=2.2
+transformers>=4.40
+
+# Optional boosted-tree models. The training script skips unavailable models.
+xgboost>=2.0
+lightgbm>=4.3
